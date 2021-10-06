@@ -1,3 +1,30 @@
-body {
-    background-color: navy;
+/*this is the reset to remove html element styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+header {
+    height: 20%;
+    background-color: lightblue;
+}
+
+nav, footer {
+    height: 10%;
+    background-color: paleturquoise;
+}
+
+main {
+    height: 60%;
+    background-color: cyan;
 }
