@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+   }
+
+   html,body{
+       height:100%; 
+       width:100%;
+   }
+
+   .container {
+    background-color:rgb(226, 190, 132);
+    height:fit-content;
+    width: fit-content;
+}
+
+header{
+    height:10%;
+    background-color:rgb(223, 177, 99);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+  height: 55px;
+  width: 55px;
+ margin-bottom: 15px;
+ margin-left: 10px;
+ opacity: 80%;
+}
+
+.title {
+    padding:20px;
+    margin:0px;
+    font-size:24px;
+    color:black;
+    font-family: 'Special Elite', cursive;
+    font-style: bold;
+}
+
+nav{
+    height:10%;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-bottom: black dotted 3px;
+    line-height: 60px;
+   
+    
+  }
+
+  .Nav2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+}
+
+.Nav2 {
+  background: rgb(205, 150, 83);
+}
+
+.thisPage {
+  background: rgb(160, 117, 66);
+}
+
+.thisPage a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  font-size: 24px;
+  font-style: bold;
+}
+
+li{
+    padding: 0 10%;
+}
+
+.Nav2:hover {
+    animation: navColor 2.5s ease-in-out ;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes navColor {
+    0% {
+      background-color: rgb(205, 150, 83);
+    }
+    50%{
+      background-color: rgb(175, 128, 72);
+    }
+    100% {
+      background-color: rgb(205, 150, 83);
+    }
+  }
+
+  .galleryJ {
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+    margin: 10px;
+ }
+
+ .galleryJ img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; 
+ }
+ 
+ .galleryG {
+  line-height:0;
+  column-count:3;
+  column-gap:5px;
+  margin: 10px;
+}
+
+.galleryG img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; 
+}
+
+.galleryGa {
+  line-height:0;
+  column-count:3;
+  column-gap:5px;
+  margin: 10px;
+}
+
+.galleryGa img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; 
+}

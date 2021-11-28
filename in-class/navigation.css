@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+nav {
+    height: 60px;
+}
+
+main {
+    height: 80%;
+    background: smoke;
+}
+
+ul.container {
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    background: gold;
+    line-height: 60px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    padding: 0 40px;
+}
+
+li:hover {
+    animation: changeMe 3s ease-in-out .2s;
+}
+
+@keyframes changeMe {
+    0%{
+        background-color: gold;
+    }
+    50%{
+        background-color: goldenrod;
+    }
+    75%{
+        background-color: rgb(160, 121, 24);
+    }
+    100%{
+        background-color: gold;
+    }
+}

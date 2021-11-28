@@ -1,0 +1,29 @@
+ul {
+    list-style: none;
+}
+
+li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+/* button colors */
+
+#grayButton {
+    background-color: gray;
+}
+
+#whiteButton {
+    background-color: white;
+}
+
+#blueButton {
+    background-color: blue;
+}
+
+#yellowButton {
+    background-color: yellow;
+}   
